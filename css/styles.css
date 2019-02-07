@@ -1,0 +1,47 @@
+nav{
+  background-color: teal;
+}
+nav ul{
+  text-align: right;
+}
+nav ul li{
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1.5em;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+nav li:hover{
+  padding: 1.5em;
+  background-color: rgba(0,0,0,0.5)
+}
+nav li a:hover{
+  color: rgb(212,175,55);
+}
+h1{
+  font-size: 3;
+  text-align: center;
+  font-family: cursive;
+  color: black;
+}img{
+  height: 15em;
+  width: auto;
+  border: 0.5em white;
+  box-shadow: 0.3em 0.3em 0.3em teal;
+}
+p{
+  text-align: justify;
+}
+h1, h2, h3{
+  text-align: center;
+}
+footer{
+  background-color: grey;
+  height: auto;
+}
+#contact-us p{
+  font-weight: bold;
+}
